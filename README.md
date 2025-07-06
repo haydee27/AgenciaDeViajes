@@ -63,7 +63,7 @@ principios SOLID para garantizar una **arquitectura robusta** asi como una excel
 - Registro simulado con proveedor externo (adapter)
 
 ---
-
+```
 ## 🗃️ Estructura de paquetes
 org.main.java.com.vuelosreservas
 │
@@ -105,7 +105,7 @@ org.main.java.com.vuelosreservas
     ├────SeleccionTipoViaje
     ├────SeleccionVueloVentana
 
-
+```
 
 ---
 
