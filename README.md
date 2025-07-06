@@ -136,6 +136,7 @@ El asiento premium (fila A1 - F1) tiene recargo.
 Los servicios adicionales son completamente opcionales.
 
 ## Autor
-Desarrollado con ❤️ por HAYDEE BONILLA, ALEJANDRO SOLIS Y DAVID VENTURA
+Desarrollado por estudiantes del Bootcamp JD20 de Kodigo 
+HAYDEE BONILLA, ALEJANDRO SOLIS Y DAVID VENTURA
 
 ## 🔧 Colaboraciones, sugerencias y mejoras son bienvenidas.
