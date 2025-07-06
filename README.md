@@ -65,46 +65,45 @@ principios SOLID para garantizar una **arquitectura robusta** asi como una excel
 ---
 ```
 ## 🗃️ Estructura de paquetes
-org.main.java.com.vuelosreservas
-│
+src/
+└── org.main.java.com.vuelosreservas
 ├── adapterVueloExterno # Comunicación externa simulada
-    ├────ProveedorExterno
-    ├────Servicio
-    ├────VueloAdapter
+│ ├── ProveedorExterno.java
+│ ├── Servicio.java
+│ └── VueloAdapter.java
 ├── builderVuelo # Builder para ReservaVuelo
-    ├────ReservaBuilder
-    ├────ReservaVuelo
+│ ├── ReservaBuilder.java
+│ └── ReservaVuelo.java
 ├── decorator # Decoradores para extras
-    ├────ExtraAcompaniante
-    ├────ExtraAsiento
-    ├────ExtraEquipaje
-    ├────ExtraSillaRueda
-    ├────ReservaBasica
-    ├────ReservaExtra
+│ ├── ExtraAcompaniante.java
+│ ├── ExtraAsiento.java
+│ ├── ExtraEquipaje.java
+│ ├── ExtraSillaRueda.java
+│ ├── ReservaBasica.java
+│ └── ReservaExtra.java
 ├── factory # Fábricas de tipo de vuelo
-    ├────ServicioVuelo
-    ├────VueloEconomico
-    ├────VueloEconomicoFactory
-    ├────VueloEjecutivo
-    ├────VueloEjecutivoFactory
-    ├────VueloFactory
+│ ├── ServicioVuelo.java
+│ ├── VueloEconomico.java
+│ ├── VueloEconomicoFactory.java
+│ ├── VueloEjecutivo.java
+│ ├── VueloEjecutivoFactory.java
+│ └── VueloFactory.java
 ├── reserva # Modelo de reserva final
-    ├────ReservaFinal
+│ └── ReservaFinal.java
 ├── singletonUsuario # Gestión de usuario singleton
-    ├────Usuario
+│ └── Usuario.java
 ├── strategy # Pagos con Strategy Pattern
-    ├────MetodoPago
-    ├────PagoPaypal
-    ├────PagoTarjeta
-    ├────ProcesadorPago
-├── ui # Interfaces gráficas (Swing)
-    ├────DatosPasajeroVentana
-    ├────PagoVentana
-    ├────ResumenFinalVentana
-    ├────SeleccionExtrasVentana
-    ├────SeleccionTipoViaje
-    ├────SeleccionVueloVentana
-
+│ ├── MetodoPago.java
+│ ├── PagoPaypal.java
+│ ├── PagoTarjeta.java
+│ └── ProcesadorPago.java
+└── ui # Interfaces gráficas (Swing)
+├── DatosPasajeroVentana.java
+├── PagoVentana.java
+├── ResumenFinalVentana.java
+├── SeleccionExtrasVentana.java
+├── SeleccionTipoViajeVentana.java
+└── SeleccionVueloVentana.java
 ```
 
 ---
